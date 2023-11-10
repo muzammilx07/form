@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Personal Details</legend>
+    <form action="">
+      <label for="fname">Firstname:</label>
+      <input type="text" name="fname" id="Firstname" />
+      <br /><br />
+      <label for="middlename">Middlename:</label>
+      <input type="text" name="middlename" id="middlename" />
+      <br /><br />
+      <label for="lastname">lastname:</label>
+      <input type="text" name="middlename" id="middlename" />
+      <br /><br />
+
+      <label for="courses">Course:</label>
+      <select name="course" id="course">
+        <option value="course">Course</option>
+        <option value="bca">BCA</option>
+        <option value="bba">BBA</option>
+        <option value="b.tech">B.Tech</option>
+        <option value="mba">MBA</option>
+        <option value="mca">MCA</option>
+        <option value="m.tech">M.Tech</option>
+      </select>
+      <br /><br />
+      <label for="gender">Gender</label>
+      <br />
+      <input type="radio" name="gender" id="gender" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" name="gender" id="gender" />
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" name="gender" id="gender" />
+      <label for="other">Other</label>
+
+      <br /><br />
+      <label for="dob">DOB</label>
+      <input type="datetime-local" name="dob" id="dob" />
+      <br />
+      <label for="phone">Phone:</label>
+      <input type="text" name="country code"  value="+91" size="2" disabled/>  
+      <input type="tel" name="phone" id="phone" maxlength="10" size="10">
+      <br><br>
+      <label for="address">Address</label>
+      <br>
+      <textarea name="address" id="address" cols="80" rows="5" ></textarea>
+      <br><br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+      <br><br><br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+      <br><br><br>
+      <label for="repassword">Re-type password</label>
+      <input type="password" name="repassword" id="repassword">
+      <br><br>
+      <input type="checkbox" name="checkbox" id="checkbox"> <label for="checkbox">Agree to terms and conditions</label>
+      <br><br>
+      <label for="ChooseFile">Choose File</label>
+      <input type="file" name="ChooseFile" id="ChooseFile">
+      <br><br>
+      <label for="choosecolor">Choose Color</label>
+      <input type="color" name="choosecolor" id="choosecolor">
+      <br><br>
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+  </body>
+</html>
